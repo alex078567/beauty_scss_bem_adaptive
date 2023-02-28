@@ -1,0 +1,169 @@
+/**************/
+/* components */
+/**************/
+
+/* navigation */
+
+.navigation {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	&__list {
+		list-style: none;
+		display: flex;
+		align-items: center;
+
+		&--top-nav {
+			gap: 3rem;
+		}
+
+		&--header-nav {
+			gap: 4rem;
+		}
+	}
+
+	&--container {
+		max-width: 192rem;
+		margin: 0 auto;
+	}
+
+	&--top-nav {
+		height: 5rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: relative;
+	}
+
+	&--header-nav {
+		background-color: $color-white;
+		height: 7.9rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: relative;
+	}
+}
+
+/* links */
+
+.link {
+	text-decoration: none;
+	transition: all 0.3s;
+
+	&--top-navigation:link,
+	&--top-navigation:visited {
+		color: $color-grey-1;
+	}
+	&--top-navigation:hover,
+	&--top-navigation:active {
+		color: $color-grey-1-hover;
+	}
+
+	&--header-navigation:link,
+	&--header-navigation:visited {
+		color: $color-black;
+	}
+	&--header-navigation:hover,
+	&--header-navigation:active {
+		color: $color-black-hover;
+	}
+
+	&--tel-number:link,
+	&--tel-number:visited {
+		font-size: 16px;
+		line-height: 19px;
+		color: $color-black;
+	}
+
+	&--tel-number:hover,
+	&--tel-number:active {
+		color: $color-black-hover;
+	}
+
+	&--footer:link,
+	&--footer:visited {
+		font-size: 12px;
+		line-height: 14px;
+		color: $color-grey-2;
+	}
+
+	&--footer:hover,
+	&--footer:active {
+		color: $color-grey-2-hover;
+	}
+}
+
+/* button */
+
+.button {
+	border: 2px solid $color-green;
+	padding: 1rem 2.4rem;
+	font-size: 1.4rem;
+	line-height: 1.6rem;
+	background: none;
+	border-radius: 4rem;
+	transition: all 0.3s;
+
+	&--hover:hover,
+	&--hover:active {
+		background-color: $color-green;
+	}
+
+	&--hero {
+		letter-spacing: 0.05em;
+		padding: 1rem 4.4rem;
+		color: $color-white;
+		border-color: $color-white;
+	}
+
+	&--hero:hover,
+	&--hero:active {
+		background-color: $color-white;
+		color: $color-black;
+	}
+
+	&--special-offers {
+		background-color: $color-green;
+		padding: 0.9rem 4rem;
+		border: none;
+		color: $color-white;
+		letter-spacing: 0.05em;
+	}
+
+	&--special-offers:hover,
+	&--special-offers:active {
+		background-color: $color-green-hover;
+	}
+
+	&--section-details {
+		color: $color-white;
+		border-color: $color-white;
+		padding: 0.7rem 2.6rem;
+	}
+	&--section-details:hover,
+	&--section-details:active {
+		background-color: $color-white;
+		color: $color-black;
+	}
+}
+
+/* mobile burger menu button */
+
+.btn-mobile-nav {
+	border: none;
+	background: none;
+	cursor: pointer;
+	display: none;
+
+	&__icon[name='close-outline'] {
+		display: none;
+	}
+
+	&__icon {
+		height: 4.8rem;
+		width: 4.8rem;
+		color: #333;
+	}
+}

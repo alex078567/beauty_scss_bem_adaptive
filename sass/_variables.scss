@@ -1,0 +1,26 @@
+/**************/
+/* variables  */
+/**************/
+
+$color-white: #ffffff;
+$color-green: #66c05d;
+$color-green-hover: #33602f;
+$color-black: #000000;
+$color-black-hover: #999999;
+$color-grey-1: #333333;
+$color-grey-1-hover: #999999;
+$color-grey-2: #828282;
+$color-grey-2-hover: #343434;
+
+$color-grey-3: #c4c4c4;
+$color-grey-4: #efefef;
+$padding: calc((100% - 110rem) / 2);
+
+$hero-circle-big: calc(100% * 1.47);
+$hero-circle-small: calc(100% * 1.16);
+
+$hero-circle-big-mobile: calc(100% * 1.07);
+$hero-circle-small-mobile: calc(100% * 0.76);
+
+$color-green-opacity-1: rgba(255, 255, 255, 0.4);
+$color-green-opacity-2: rgba(255, 255, 255, 0.3);

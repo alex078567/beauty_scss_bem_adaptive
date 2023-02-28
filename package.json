@@ -1,0 +1,14 @@
+{
+	"name": "figma_beauty_scss_bem",
+	"version": "1.0.0",
+	"description": "first web-site design using bem and scss",
+	"main": "index.js",
+	"scripts": {
+		"compile:sass": "node-sass sass/main.scss css/style.css -w"
+	},
+	"author": "Alex",
+	"license": "ISC",
+	"devDependencies": {
+		"node-sass": "^8.0.0"
+	}
+}

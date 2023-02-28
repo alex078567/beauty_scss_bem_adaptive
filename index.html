@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/style.css" />
+
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+		></script>
+		<script
+			nomodule=""
+			src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+		></script>
+
+		<script defer src="./js/script.js"></script>
+		<title>Beauty - Оборудование для салонов красоты</title>
+		<link rel="icon" type="image/x-icon" href="./img/logo.svg" />
+	</head>
+	<body>
+		<div class="navigation--top-nav navigation--container">
+			<nav class="navigation navigation--top">
+				<ul class="navigation__list navigation__list--top-nav">
+					<li>
+						<a href="#" class="link link--top-navigation">Доставка</a>
+					</li>
+					<li>
+						<a href="#" class="link link--top-navigation">Оплата</a>
+					</li>
+					<li>
+						<a href="#" class="link link--top-navigation">Отзывы</a>
+					</li>
+					<li>
+						<a href="#" class="link link--top-navigation whitespace-nowrap"
+							>Вопрос - ответ</a
+						>
+					</li>
+					<li>
+						<a href="#" class="link link--top-navigation">Контакты</a>
+					</li>
+				</ul>
+			</nav>
+			<button class="btn-mobile-nav">
+				<ion-icon class="btn-mobile-nav__icon" name="menu-outline"></ion-icon>
+				<ion-icon class="btn-mobile-nav__icon" name="close-outline"></ion-icon>
+			</button>
+		</div>
+		<header class="header">
+			<div class="header__logo-line container">
+				<a class="link" href="#">
+					<div class="header__logo">
+						<img class="header__img" src="./img/logo.svg" alt="Логотип" />
+						<h1 class="header__heading">Beauty</h1>
+					</div>
+				</a>
+				<div class="header__contacts">
+					<a class="link link--tel-number" href="tel:8 (812) 123-45-67"
+						>8 (812) 123-45-67</a
+					>
+					<button class="button button--hover">Обратный звонок</button>
+				</div>
+			</div>
+			<div class="navigation--header-nav navigation--container">
+				<nav class="navigation">
+					<ul class="navigation__list navigation__list--header-nav">
+						<li>
+							<a href="#" class="link--header-navigation link"
+								>Парикмахерская</a
+							>
+						</li>
+						<li>
+							<a href="#" class="link--header-navigation link">Барбершоп</a>
+						</li>
+						<li>
+							<a href="#" class="link--header-navigation link">Маникюр</a>
+						</li>
+						<li>
+							<a href="#" class="link--header-navigation link whitespace-nowrap"
+								>Педикюр</a
+							>
+						</li>
+						<li>
+							<a href="#" class="link link--header-navigation">Массаж</a>
+						</li>
+						<li>
+							<a href="#" class="link link--header-navigation">Мебель</a>
+						</li>
+					</ul>
+				</nav>
+				<button class="btn-mobile-nav">
+					<ion-icon class="btn-mobile-nav__icon" name="menu-outline"></ion-icon>
+					<ion-icon
+						class="btn-mobile-nav__icon"
+						name="close-outline"
+					></ion-icon>
+				</button>
+			</div>
+
+			<div class="header__nav-line"></div>
+		</header>
+		<main>
+			<section class="section-hero container grid grid--hero">
+				<div>
+					<h1 class="section-hero__heading section-hero--mb-5rem">
+						Супер кресло
+					</h1>
+					<p class="section-hero__text section-hero--mb-5rem">
+						Текст акции всегда отражает суть, а не просто <br />
+						болтовню, поэтому внимательнее
+					</p>
+					<button class="button button--hero">Подробнее</button>
+				</div>
+				<div class="section-hero__img-box">
+					<img
+						class="section-hero__img"
+						src="./img/hero_chair.png"
+						alt="Черный стул"
+					/>
+				</div>
+			</section>
+			<section class="section-special-offers">
+				<h2 class="section-special-offers__heading container">
+					Специальные предложения
+				</h2>
+				<div class="grid grid--special-offers container">
+					<div class="section-special-offers__item-card">
+						<img
+							class="section-special-offers__img"
+							src="./img/special_offers_chair.png"
+							alt="Зеленый стул"
+						/>
+						<p class="section-special-offers__text">
+							Парикмахерское кресло «Норм» гидравлическое
+						</p>
+						<p class="section-special-offers__price">9 900 ₽</p>
+						<button class="button button--special-offers">Купить</button>
+					</div>
+					<div class="section-special-offers__item-card">
+						<img
+							class="section-special-offers__img"
+							src="./img/special_offers_chair.png"
+							alt="Зеленый стул"
+						/>
+						<p class="section-special-offers__text">
+							Парикмахерское кресло «Норм» гидравлическое
+						</p>
+						<p class="section-special-offers__price">9 900 ₽</p>
+						<button class="button button--special-offers">Купить</button>
+					</div>
+					<div class="section-special-offers__item-card">
+						<img
+							class="section-special-offers__img"
+							src="./img/special_offers_chair.png"
+							alt="Зеленый стул"
+						/>
+						<p class="section-special-offers__text">
+							Парикмахерское кресло «Норм» гидравлическое
+						</p>
+						<p class="section-special-offers__price">9 900 ₽</p>
+						<button class="button button--special-offers">Купить</button>
+					</div>
+					<div class="section-special-offers__item-card">
+						<img
+							class="section-special-offers__img"
+							src="./img/special_offers_chair.png"
+							alt="Зеленый стул"
+						/>
+						<p class="section-special-offers__text">
+							Парикмахерское кресло «Норм» гидравлическое
+						</p>
+						<p class="section-special-offers__price">9 900 ₽</p>
+						<button class="button button--special-offers">Купить</button>
+					</div>
+				</div>
+			</section>
+			<section class="section-details container grid grid--details">
+				<div class="section-details__card section-details__card--flexbox">
+					<div>
+						<h2 class="section-details__heading">Получайте бонусы и подарки</h2>
+						<p class="section-details__text">
+							Каждый месяц разыгрываем <br />
+							10 000 рублей для наших клиентов
+						</p>
+						<input
+							class="section-details__input"
+							type="email"
+							id="email"
+							name="email"
+							placeholder="Введите e-mail"
+						/>
+					</div>
+					<img
+						class="section-details__img"
+						src="./img/details_envelope.svg"
+						alt="Конверт"
+					/>
+				</div>
+				<div class="section-details__card">
+					<h2 class="section-details__heading">Заходите к нам</h2>
+					<p class="section-details__text">
+						Более 300 магазинов <br />
+						по всей России
+					</p>
+					<button class="button button--section-details">
+						Карта магазинов
+					</button>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__logo-line container">
+				<div class="footer__icons-address-container">
+					<ul class="footer__icons">
+						<li class="footer__icon-container">
+							<img
+								class="footer__icon-youtube"
+								src="./img/footer_youtube_icon.svg"
+								alt="Ютуб-логотип"
+							/>
+						</li>
+						<li class="footer__icon-container">
+							<img
+								class="footer__icon-vk"
+								src="./img/footer_vk_icon.svg"
+								alt="Вконтакте-логотип"
+							/>
+						</li>
+						<li class="footer__icon-container">
+							<img
+								class="footer__icon-facebook"
+								src="./img/footer_facebook_icon.svg"
+								alt="Фейсбук-логотип"
+							/>
+						</li>
+						<li class="footer__icon-container">
+							<img
+								class="footer__icon-instagram"
+								src="./img/footer_instagram_icon.svg"
+								alt="Инстаграм-логотип"
+							/>
+						</li>
+					</ul>
+					<div class="footer__address">
+						<p>198555, Невский пр. 140, офис 140</p>
+					</div>
+				</div>
+				<div class="footer__contacts">
+					<a class="link link--tel-number" href="tel:8 (812) 123-45-67"
+						>8 (812) 123-45-67</a
+					>
+					<button class="button button--hover">Обратный Звонок</button>
+				</div>
+			</div>
+			<div class="footer__additional-info container">
+				<p class="footer__last-line-text">
+					Лучший магазин (с) 2019 Все права защищены. Интернет-магазин
+					оборудования для салонов красоты
+				</p>
+				<a class="link link--footer" href="">Политика конфиденциальности</a>
+			</div>
+		</footer>
+	</body>
+</html>
